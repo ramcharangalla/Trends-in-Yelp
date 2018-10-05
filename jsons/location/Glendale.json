@@ -1,0 +1,111 @@
+{
+  "responseHeader":{
+    "status":0,
+    "QTime":0,
+    "params":{
+      "q":"address:*",
+      "indent":"on",
+      "fl":"business_id,latitude,longitude,state,city,stars,review_count,name",
+      "fq":["city: Glendale",
+        "review_count:[100 TO *]",
+        "stars:5"],
+      "rows":"10",
+      "wt":"json",
+      "_":"1491988986737"}},
+  "response":{"numFound":1,"start":0,"docs":[
+      {
+        "business_id":["aHl6kL013OHT2OiH6koVwg"],
+        "name":["Doglicious Hot Dogs"],
+        "city":["Glendale"],
+        "state":["AZ"],
+        "latitude":[33.6394722106],
+        "longitude":[-112.168517858],
+        "stars":[5.0],
+        "review_count":[136]},
+        {
+              "business_id":["0NxNTtgpfjBIOdLW5IJhCQ"],
+              "name":["A Taste of Buffalo"],
+              "city":["Glendale"],
+              "state":["AZ"],
+              "latitude":[33.6403500704],
+              "longitude":[-112.185949198],
+              "stars":[4.5],
+              "review_count":[117]},
+            {
+              "business_id":["Xv4PTiQ_scrhC4oc5kf6aA"],
+              "name":["A Touch of European Cafe"],
+              "city":["Glendale"],
+              "state":["AZ"],
+              "latitude":[33.5414876],
+              "longitude":[-112.1827954],
+              "stars":[4.5],
+              "review_count":[103]},
+            {
+              "business_id":["4VPjBVJKcxDpr00OMwxSww"],
+              "name":["Ta'Carbon"],
+              "city":["Glendale"],
+              "state":["AZ"],
+              "latitude":[33.5111448],
+              "longitude":[-112.1857747],
+              "stars":[4.5],
+              "review_count":[149]},
+            {
+              "business_id":["Vw9u6qar1I2QlkQOV6KNVA"],
+              "name":["Siam Thai Cusine"],
+              "city":["Glendale"],
+              "state":["AZ"],
+              "latitude":[33.5536557],
+              "longitude":[-112.1668669],
+              "stars":[4.5],
+              "review_count":[221]},
+            {
+              "business_id":["9GUWNQ98sQN7k2UFbsBNng"],
+              "name":["Ammos Mediterranean Grill"],
+              "city":["Glendale"],
+              "state":["AZ"],
+              "latitude":[33.7136861],
+              "longitude":[-112.2007608],
+              "stars":[4.5],
+              "review_count":[114]},
+            {
+              "business_id":["mGcNhuOzpgc3colTDjI1bw"],
+              "name":["LK Hand & Foot Spa"],
+              "city":["Glendale"],
+              "state":["AZ"],
+              "latitude":[33.6399383],
+              "longitude":[-112.1498194],
+              "stars":[4.5],
+              "review_count":[143]},
+            {
+              "business_id":["KyUFj09bfowyddCuOTP4mg"],
+              "name":["Little Saigon"],
+              "city":["Glendale"],
+              "state":["AZ"],
+              "latitude":[33.5391207],
+              "longitude":[-112.1815353],
+              "stars":[4.5],
+              "review_count":[321]},
+            {
+              "business_id":["yPRNwbXvumnl8Fdrkoouxg"],
+              "name":["West Wind Glendale 9 Drive-In"],
+              "city":["Glendale"],
+              "state":["AZ"],
+              "latitude":[33.5204249],
+              "longitude":[-112.1797276],
+              "stars":[4.5],
+              "review_count":[112]},
+            {
+              "business_id":["EiWOgRl-v7KLV09VaBt1RA"],
+              "name":["Yo & I"],
+              "city":["Glendale"],
+              "state":["AZ"],
+              "latitude":[33.6370916],
+              "longitude":[-112.201447],
+              "stars":[4.5],
+              "review_count":[150]}]
+
+
+
+  }
+
+}

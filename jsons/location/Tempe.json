@@ -1,0 +1,113 @@
+{
+  "responseHeader":{
+    "status":0,
+    "QTime":0,
+    "params":{
+      "q":"address:*",
+      "indent":"on",
+      "fl":"business_id,latitude,longitude,state,city,stars,review_count,name",
+      "fq":["city:Tempe",
+        "review_count:[100 TO *]",
+        "stars:5"],
+      "rows":"10",
+      "wt":"json"}},
+  "response":{"numFound":6,"start":0,"docs":[
+      {
+        "business_id":["GBuB1uV9NRrtaLxZoVhi7w"],
+        "name":["Donut Parlor"],
+        "city":["Tempe"],
+        "state":["AZ"],
+        "latitude":[33.3480661464],
+        "longitude":[-111.957905106],
+        "stars":[5.0],
+        "review_count":[104]},
+      {
+        "business_id":["zG4sdiMWE7CZAsfrM4j6GA"],
+        "name":["A1 Garage Door Repair"],
+        "city":["Tempe"],
+        "state":["AZ"],
+        "latitude":[33.4214050914],
+        "longitude":[-111.9754351],
+        "stars":[5.0],
+        "review_count":[316]},
+      {
+        "business_id":["0FgFNbsWQs2kYuYaWHSIYw"],
+        "name":["Poindexter Moving"],
+        "city":["Tempe"],
+        "state":["AZ"],
+        "latitude":[33.4037233663],
+        "longitude":[-111.958503078],
+        "stars":[5.0],
+        "review_count":[185]},
+      {
+        "business_id":["LRnzpnNQWwpN3Bu24W53CA"],
+        "name":["Doc's Artisan Ice Creams"],
+        "city":["Tempe"],
+        "state":["AZ"],
+        "latitude":[33.3340107],
+        "longitude":[-111.9595243],
+        "stars":[5.0],
+        "review_count":[125]},
+      {
+        "business_id":["LWvrTFkCSLPGldJqccGHhQ"],
+        "name":["Hon-Man Auto Care"],
+        "city":["Tempe"],
+        "state":["AZ"],
+        "latitude":[33.4148804],
+        "longitude":[-111.9052039],
+        "stars":[5.0],
+        "review_count":[100]},
+      {
+        "business_id":["FhZ7QinEr-VRGyVgktWKXA"],
+        "name":["Living Canvas Tattoos"],
+        "city":["Tempe"],
+        "state":["AZ"],
+        "latitude":[33.4196446],
+        "longitude":[-111.9402676],
+        "stars":[5.0],
+        "review_count":[127]},
+
+        {
+            "business_id":["W2CzAePJakvARgoQuohbOA"],
+            "name":["In-N-Out Burger"],
+            "city":["Tempe"],
+            "state":["AZ"],
+            "latitude":[33.434903],
+            "longitude":[-111.9254848],
+            "stars":[4.5],
+            "review_count":[314]},
+          {
+            "business_id":["OD09pm-MzynigAvD5KoGPA"],
+            "name":["Mucha Lucha Taco Shop"],
+            "city":["Tempe"],
+            "state":["AZ"],
+            "latitude":[33.4078133],
+            "longitude":[-111.950932],
+            "stars":[4.5],
+            "review_count":[288]},
+          {
+            "business_id":["NXU5CcXh2y0Ns5OJQ2wkgg"],
+            "name":["The Apple Xchange"],
+            "city":["Tempe"],
+            "state":["AZ"],
+            "latitude":[33.392403],
+            "longitude":[-111.9075294],
+            "stars":[4.5],
+            "review_count":[119]},
+          {
+            "business_id":["Jzth-y32SyvOhJNgbIPTqQ"],
+            "name":["Hummus Xpress"],
+            "city":["Tempe"],
+            "state":["AZ"],
+            "latitude":[33.407803263],
+            "longitude":[-111.953753232],
+            "stars":[4.5],
+            "review_count":[412]}]
+
+
+
+  }
+
+
+
+}

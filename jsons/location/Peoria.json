@@ -1,0 +1,112 @@
+{
+  "responseHeader":{
+    "status":0,
+    "QTime":2,
+    "params":{
+      "q":"address:*",
+      "indent":"on",
+      "fl":"business_id,latitude,longitude,state,city,stars,review_count,name",
+      "fq":["city: Peoria",
+        "review_count:[100 TO *]",
+        "stars:5"],
+      "rows":"4",
+      "wt":"json",
+      "_":"1491988986737"}},
+  "response":{"numFound":2,"start":0,"docs":[
+      {
+        "business_id":["V7LeK0mPA_qk1I7hApgtyw"],
+        "name":["Lunde's Peoria Volkswagen"],
+        "city":["Peoria"],
+        "state":["AZ"],
+        "latitude":[33.63793],
+        "longitude":[-112.248712],
+        "stars":[5.0],
+        "review_count":[115]},
+      {
+        "business_id":["STPpvTd7V6qioAONogTPRQ"],
+        "name":["El New Yorican Central Catering & Delivery"],
+        "city":["Peoria"],
+        "state":["AZ"],
+        "latitude":[33.5810937434],
+        "longitude":[-112.240455709],
+        "stars":[5.0],
+        "review_count":[132]},
+        {
+              "business_id":["FYa3GUro-ezTM9zvKiocFw"],
+              "name":["Greek Wraps"],
+              "city":["Peoria"],
+              "state":["AZ"],
+              "latitude":[33.637659],
+              "longitude":[-112.217436],
+              "stars":[4.5],
+              "review_count":[434]},
+            {
+              "business_id":["wsa4S6L7WPRgL17KP4JxYg"],
+              "name":["Lish Nail Salon"],
+              "city":["Peoria"],
+              "state":["AZ"],
+              "latitude":[33.6370383697],
+              "longitude":[-112.224037509],
+              "stars":[4.5],
+              "review_count":[145]},
+            {
+              "business_id":["nDj2LrpjZHTM8X-EqHSR9A"],
+              "name":["Dutch Bros Coffee"],
+              "city":["Peoria"],
+              "state":["AZ"],
+              "latitude":[33.61008],
+              "longitude":[-112.239527],
+              "stars":[4.5],
+              "review_count":[302]},
+            {
+              "business_id":["nFVqjh-JCOuV2Uci1ZfJ_Q"],
+              "name":["Leo's Island BBQ"],
+              "city":["Peoria"],
+              "state":["AZ"],
+              "latitude":[33.6370611],
+              "longitude":[-112.2239376],
+              "stars":[4.5],
+              "review_count":[292]},
+            {
+              "business_id":["ZKsVCA89iXMccf3fEhS3iw"],
+              "name":["Angry Crab Shack"],
+              "city":["Peoria"],
+              "state":["AZ"],
+              "latitude":[33.596701],
+              "longitude":[-112.2228886],
+              "stars":[4.5],
+              "review_count":[271]},
+              {
+                    "business_id":["fbbyP0hbsqRA0Jdy54AlsQ"],
+                    "name":["Donutsville"],
+                    "city":["Peoria"],
+                    "state":["AZ"],
+                    "latitude":[33.6698040611],
+                    "longitude":[-112.238971899],
+                    "stars":[4.0],
+                    "review_count":[114]},
+                  {
+                    "business_id":["gqjUOwxbj6wt-2SO5fGRPw"],
+                    "name":["Peoria Cafe"],
+                    "city":["Peoria"],
+                    "state":["AZ"],
+                    "latitude":[33.581119],
+                    "longitude":[-112.2401688],
+                    "stars":[4.0],
+                    "review_count":[108]},
+                  {
+                    "business_id":["X3ec1nuK2BmOULN4Kk3Fgw"],
+                    "name":["The Haymaker"],
+                    "city":["Peoria"],
+                    "state":["AZ"],
+                    "latitude":[33.7086354351],
+                    "longitude":[-112.27331183],
+                    "stars":[4.0],
+                    "review_count":[333]}]
+
+
+
+
+  }
+
+}

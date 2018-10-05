@@ -1,0 +1,111 @@
+{
+  "responseHeader":{
+    "status":0,
+    "QTime":3,
+    "params":{
+      "q":"address:*",
+      "indent":"on",
+      "fl":"business_id,latitude,longitude,state,city,stars,review_count,name",
+      "fq":["city:Chandler",
+        "review_count:[100 TO *]",
+        "stars:5"],
+      "rows":"10",
+      "wt":"json",
+      "_":"1491988986737"}},
+  "response":{"numFound":2,"start":0,"docs":[
+      {
+        "business_id":["WoiFJt1T-BISB3NIlbP9BA"],
+        "name":["Five Star Barber Shop"],
+        "city":["Chandler"],
+        "state":["AZ"],
+        "latitude":[33.3209969983],
+        "longitude":[-111.912817306],
+        "stars":[5.0],
+        "review_count":[113]},
+      {
+        "business_id":["mLg4FenOcHpXZnW67QrVxw"],
+        "name":["Dodge Electric"],
+        "city":["Chandler"],
+        "state":["AZ"],
+        "latitude":[33.292661],
+        "longitude":[-111.841159],
+        "stars":[5.0],
+        "review_count":[133]},
+        {
+              "business_id":["AkpuhGyLAxhD_sLMQv3kOg"],
+              "name":["Kai"],
+              "city":["Chandler"],
+              "state":["AZ"],
+              "latitude":[33.2678103],
+              "longitude":[-111.9784795],
+              "stars":[4.5],
+              "review_count":[169]},
+            {
+              "business_id":["Mx5DNxrvT7bQDKDuAgHe0A"],
+              "name":["Lexus of Chandler"],
+              "city":["Chandler"],
+              "state":["AZ"],
+              "latitude":[33.326011743],
+              "longitude":[-111.970622041],
+              "stars":[4.5],
+              "review_count":[106]},
+            {
+              "business_id":["bWucOPNoIjd8ECdiDyVq9Q"],
+              "name":["Singing Pandas Asian Restaurant & Bar"],
+              "city":["Chandler"],
+              "state":["AZ"],
+              "latitude":[33.305778],
+              "longitude":[-111.8287607],
+              "stars":[4.5],
+              "review_count":[218]},
+            {
+              "business_id":["_bDy-L6f148jLEzXSuBOFw"],
+              "name":["Pieology"],
+              "city":["Chandler"],
+              "state":["AZ"],
+              "latitude":[33.3061774538],
+              "longitude":[-111.89924047],
+              "stars":[4.5],
+              "review_count":[128]},
+            {
+              "business_id":["jRePPkwob0NjLtSP_ZVQag"],
+              "name":["Hawaiian Experience Spa"],
+              "city":["Chandler"],
+              "state":["AZ"],
+              "latitude":[33.3191497],
+              "longitude":[-111.8740975],
+              "stars":[4.5],
+              "review_count":[119]},
+            {
+              "business_id":["gotvSVEaPn_qHasAU33ejg"],
+              "name":["Ruchi Vegetarian South Indian Cuisine"],
+              "city":["Chandler"],
+              "state":["AZ"],
+              "latitude":[33.3336827],
+              "longitude":[-111.8775741],
+              "stars":[4.5],
+              "review_count":[117]},
+            {
+              "business_id":["9S5hEYGopJF1I6VglhkUhQ"],
+              "name":["Nanay's"],
+              "city":["Chandler"],
+              "state":["AZ"],
+              "latitude":[33.3409988],
+              "longitude":[-111.8601111],
+              "stars":[4.5],
+              "review_count":[104]},
+            {
+              "business_id":["8yAVuMwtijEosdjiCrtyXQ"],
+              "name":["Fired Pie"],
+              "city":["Chandler"],
+              "state":["AZ"],
+              "latitude":[33.3202869],
+              "longitude":[-111.8905049],
+              "stars":[4.5],
+              "review_count":[404]}]
+
+
+
+  }
+
+}
